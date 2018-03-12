@@ -3,6 +3,15 @@ html, body {
   margin: 0;
 }
 
+.containment{
+  position: fixed;
+  right: 2vh;
+  top: 2vh;
+  height: 96vh;
+  background-color: red;
+  width: 60px;
+}
+
 .chat_container {
   position: relative;
  /* top: 0;
@@ -76,9 +85,9 @@ html, body {
   height: 60px;
   border-radius: 50%;
   position: fixed;
-  top: 50%;
+  bottom: 2vh;
+  right: 2vh;
   z-index: 9999;
-  left: 15px;
   box-shadow: 0 0px 20px rgba(0, 0, 0, 0.19), 0 0px 6px rgba(0, 0, 0, 0.23);
   background: url("https://media.licdn.com/media/AAEAAQAAAAAAAAc8AAAAJDk4ZjZhZTJhLTRlNzYtNGYzMy05ZjAwLWYyNjljYTBlMWFiNA.jpg") white;
   background-size: cover;
